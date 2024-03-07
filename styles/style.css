@@ -1,0 +1,70 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Imbue", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(/img/2.jpg) no-repeat center center/ contain;
+}
+
+.container {
+    width: 550px;
+    height: 400px;
+}
+
+.header {
+    font-size: 0.9rem;
+    border: 2px solid #fff;
+    color: #f2f2f2;
+    background-color: rgb(19, 18, 18, 0.6);
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 300px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;   
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: red;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#new-quote {
+    background-color: #020202;
+    color: #f2f2f2;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new-quote:active {
+    background-color: lightskyblue;
+}
+
